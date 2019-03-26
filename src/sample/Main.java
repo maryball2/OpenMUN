@@ -1,3 +1,8 @@
+/*
+Title: OpenMUN
+Author: Riley Carpenter
+TODO: Make the program
+ */
 package sample;
 
 import javafx.application.Application;
