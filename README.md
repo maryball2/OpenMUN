@@ -1,5 +1,5 @@
 # OpenMUN
-This is a FOSS java program designed to help conferences with Model UN!
+This is an open source java program designed to help conferences with Model UN!
 
 Todo:
     
