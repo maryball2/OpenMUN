@@ -10,11 +10,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.paint.Color;
 
 import java.awt.*;
 
 public class Main extends Application {
     @Override
+
     public void start(Stage primaryStage) throws Exception{
         //Get local graphics environmet
         GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
@@ -23,8 +25,9 @@ public class Main extends Application {
 
         //Open Primary stage
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Scene primaryScene = new Scene(root, width, height, Color.web("#5B92E5",1.0));
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, width, height));
+        primaryStage.setScene(primaryScene);
         primaryStage.show();
     }
 

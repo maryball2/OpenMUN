@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OpenMUN.iml" filepath="$PROJECT_DIR$/.idea/OpenMUN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenMUN.iml" filepath="$PROJECT_DIR$/OpenMUN.iml" />
     </modules>
   </component>
 </project>
